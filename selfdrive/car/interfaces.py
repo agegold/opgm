@@ -105,7 +105,7 @@ class CarInterfaceBase(ABC):
   def get_steer_feedforward_function(self):
     return self.get_steer_feedforward_default
   
-  def get_steer_feedforward_function_torque(self):
+  def get_steer_feedforward_torque_function(self):
     return self.get_steer_feedforward_torque_default
 
   # returns a set of default params to avoid repetition in car specific params
